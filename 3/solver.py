@@ -12,7 +12,7 @@ def solver(data):
 
 def checker(lengths):
     lengths.sort()
-    if lengths[2] > lengths[1] + lengths[0]:
+    if lengths[2] >= lengths[1] + lengths[0]:
         return False
     else:
         return True
